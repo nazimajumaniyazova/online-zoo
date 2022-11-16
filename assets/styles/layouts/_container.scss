@@ -1,0 +1,14 @@
+.container{
+    max-width: $content-width; //1160px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    @include media-mobile {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @include media-mobilesmall{
+        padding-left: 12px;
+        padding-right: 12px; 
+    }
+}

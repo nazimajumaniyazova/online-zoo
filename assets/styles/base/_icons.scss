@@ -1,0 +1,79 @@
+.icon {
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon-banana{
+    width: 33px;
+    height: 37px;
+    background-image: url('../../assets/images/banana-bamboo_icon.svg');
+}
+.icon-shark{
+    width: 48px;
+    height: 38px;
+    background-image: url('../../assets/images/meet-fish_icon.svg');
+}
+.next-step{
+    width: 69px;
+    height: 35.08px;
+    background-image: url('../../assets/images/next-step.svg');
+    @include media-mobile{
+        width: 86px;
+        height: 69px;
+        background-image: url('../../assets/images/next-step-mobile.svg');
+    }
+}
+.social__icon{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon-fb{
+    width: 8px;
+    height: 16px;
+    background-image: url('../../assets/images/icon-facebook.svg');
+}
+.icon-tw{
+    width: 16px;
+    height: 14px;
+    background-image: url('../../assets/images/icon-twitter.svg');
+}
+.icon-ig{
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/images/icon-instagram.svg');
+}
+.icon-yt{
+    width: 18px;
+    height: 12.99px;
+    background-image: url('../../assets/images/icon-youtube.svg');
+}
+// Slider icons
+
+.slider-prev{
+    .icon-arrow{
+        transform: rotate(180deg);
+    }
+}
+.icon-arrow{
+    width:16px;
+    height:8px;
+    background-image: url('../../assets/images/arrow.svg');
+}
+.x-icon{
+    width:14px;
+    height:14px;
+    background-image: url('../../assets/images/x_icon.svg');
+}
+.icon-dollar{
+    width: 10px;
+    height: 20px;
+    background-image: url('../../assets/images/icon-dollar.svg');
+}

@@ -1,0 +1,32 @@
+.btn {
+ background: #E47209;
+ color: $color-text-light;
+ text-transform: uppercase;
+ background-image: $color-button-bg-gradient;
+ padding: 16px;
+ width: 298px;
+ font-weight: 500;
+ line-height: 22px;
+ position: relative;
+transition: all 0.3s ease;
+outline: none;
+ &:hover{
+    background: #E47209;
+    transform: scale(1.1);
+ }
+ &:active{
+    background: #E47209;
+    top: 2px;
+ }
+}
+.btn-rounded{
+    border-radius: 25px;
+}
+.btn-square{
+    border-radius: 5px;
+}
+.btn-link{
+    display: inline-block;
+    padding-left: 30px ;
+    padding-right: 30px;
+}

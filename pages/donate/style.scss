@@ -1,0 +1,26 @@
+// Abstract
+@import  '../../assets/styles/abstract/variables';
+@import  '../../assets/styles/abstract/mixins';
+@import  '../../assets/styles/abstract/placeholders';
+
+//Base
+@import '../../assets/styles/base/normalize';
+@import '../../assets/styles/base/typography';
+@import '../../assets/styles/base/global';
+@import '../../assets/styles/base/button';
+@import '../../assets/styles/base/icons';
+
+// Layouts
+
+@import "../../assets/styles/layouts/container";
+@import "../../assets/styles/layouts/header";
+
+// Components
+@import "../../assets/styles/components/hero.scss";
+@import "../../assets/styles/components/how-works.scss";
+@import "../../assets/styles/components/pets.scss";
+@import "../../assets/styles/components/feed.scss";
+@import "../../assets/styles/components/testimonials";
+@import "../../assets/styles/components/footer";
+@import "../../assets/styles/components/donate-hero";
+@import "../../assets/styles/components/donate-info";

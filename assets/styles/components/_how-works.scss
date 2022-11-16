@@ -1,0 +1,159 @@
+.how-works{
+    padding-top: 140px;
+    overflow: hidden;
+    position: relative;
+    @include media-tablet{
+        padding-top: 102px;
+
+        picture{
+            margin-top: 9px;
+        }
+    }
+    @include media-mobile {
+        padding-top: 60px;
+        picture{
+            display: none;
+        }
+    }
+    @include media-mobilesmall{
+        padding-top: 105px;
+    }
+}
+.how-works__wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    @include media-tablet{
+        gap: 31px;
+    }
+}
+.how-works__text{
+    > p:nth-child(2){
+        margin-bottom: 55px;
+    }
+    @include media-mobile {
+        max-width: 495px;
+        > p:nth-child(2){
+            margin-bottom: 31px;
+        }
+    }
+    @include media-mobilesmall{
+        > p:nth-child(2){
+            margin-bottom: 18px;
+        }
+    }
+}
+.how-works__title{
+    margin-bottom: 20px;
+    @include media-tablet{
+        @include font($height: 5.8rem, $size: 4.8rem, $weight: 400);
+    }
+    @include media-mobilesmall{
+        margin-bottom: 10px;
+        @include font($height: 2.9rem, $size: 2.4rem, $weight: 400);
+    }
+}
+
+.how-works__subtitle{
+    margin-bottom: 32px;
+    @include media-mobile {
+        margin-bottom: 20px;
+    }
+    @include media-mobilesmall{
+        margin-bottom: 8px;
+    }
+}
+
+// DECOR
+.how-works__decor{
+    background-image: url('../../assets/images/decor-flower.png');
+    background-repeat: no-repeat;
+    height: 605px;
+    width: 200px;
+
+    position: absolute;
+    top: 10px;
+    right: 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    @include media-tablet{
+       display: none;
+    }
+    @include media-mobile {
+        display: block;
+        height: 476px;
+        width: 150px;
+        top: 0px;
+        right: -27px;
+        background-size: contain;
+    }
+    @include media-mobilesmall{
+        background-image: url('../../assets/images/how-mobile-320.png');
+        top: 29px;
+        right: -15px;
+        width: 50px;
+        height: 217px;
+    }
+}
+
+@media (max-width: 1430px){
+   
+    // .how-works__title{
+    //     font-size: 2.5em;
+    // }
+    .how-works__wrapper img{
+        max-width: 480px;
+        max-height: auto;
+    }
+   
+    // .how-works__wrapper {
+    //     gap: 40px;
+    // }
+}
+@media (min-width:641px) and (max-width:1430px){
+    .how-works__decor{
+        width: 71px;
+    }
+}
+@media (min-width:1001px) and (max-width:1430px){
+    .how-works__title{
+        font-size: 2.5em;
+    }
+    .how-works__wrapper {
+        gap: 40px;
+    }
+    .how-works__text > p:nth-child(2) {
+        max-width: 400px;
+    }
+    .how-works__text > p:nth-child(4) {
+        max-width: 428px;
+    }
+}
+@media (max-width:999px){
+    .how-works img{
+        display: none;
+    }
+}
+@media (max-width:638px){
+ .how-works__title,
+ .how-works__subtitle{
+    font-size: 24px;
+    line-height: 120%;
+ }
+ .how-works__decor{
+    background-image: url(../../assets/images/how-mobile-320.png);
+    top: 50px;
+    right: -15px;
+    width: 50px;
+    height: 217px;
+ }
+}
+@media (max-width:577px){
+    .how-works__text{
+        flex-basis: 90%;
+    }
+}
+@media (max-width:320px){
+    .how-works__text{
+        flex-basis: 100%;
+    }
+}
