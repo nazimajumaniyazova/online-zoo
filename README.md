@@ -6,3 +6,7 @@ It is assumed that the user can open a zoo resource page, watch one of the anima
 * HTML
 * SCSS
 * Vanilla Javascript
+
+### Deploy Link: 
+
+https://nazimajumaniyazova.github.io/online-zoo/
